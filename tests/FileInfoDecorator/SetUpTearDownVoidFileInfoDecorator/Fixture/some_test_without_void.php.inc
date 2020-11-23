@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\Tests\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator\Fixture;
+namespace Symplify\PHPUnitUpgrader\Tests\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
@@ -19,7 +19,7 @@ final class SomeTestWithoutVoid extends TestCase
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\Tests\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator\Fixture;
+namespace Symplify\PHPUnitUpgrader\Tests\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

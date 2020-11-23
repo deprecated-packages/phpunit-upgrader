@@ -2,18 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\FileInfoDecorator;
+namespace Symplify\PHPUnitUpgrader\FileInfoDecorator;
 
-use Migrify\PHPUnitUpgrader\AssertContainsFileLineExtractor;
-use Migrify\PHPUnitUpgrader\ValueObject\FilePathWithContent;
 use Nette\Utils\Strings;
+use Symplify\PHPUnitUpgrader\AssertContainsFileLineExtractor;
+use Symplify\PHPUnitUpgrader\ValueObject\FilePathWithContent;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 /**
- * @see \Migrify\PHPUnitUpgrader\Tests\FileInfoDecorator\AssertContainsInfoDecorator\AssertContainsInfoDecoratorTest
+ * @see \Symplify\PHPUnitUpgrader\Tests\FileInfoDecorator\AssertContainsInfoDecorator\AssertContainsInfoDecoratorTest
  */
 final class AssertContainsInfoDecorator
 {
+    /**
+     * @see https://regex101.com/r/RpK2uw/1
+     * @var string
+     */
+    private const ASSERT_CONTAINS_REGEX = '#assertContains#';
+
     /**
      * @var AssertContainsFileLineExtractor
      */
@@ -42,7 +48,7 @@ final class AssertContainsInfoDecorator
 
                 $newLineContent = Strings::replace(
                     $currentLineContent,
-                    '#assertContains#',
+                    self::ASSERT_CONTAINS_REGEX,
                     'assertStringContainsString'
                 );
 

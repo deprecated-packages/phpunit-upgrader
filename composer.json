@@ -1,5 +1,5 @@
 {
-    "name": "migrify/phpunit-upgrader",
+    "name": "symplify/phpunit-upgrader",
     "description": "Upgrade PHPUnit tests with smart helping hand",
     "license": "MIT",
     "bin": [
@@ -7,27 +7,27 @@
     ],
     "require": {
         "php": ">=7.2",
-        "nette/utils": "^3.1",
+        "nette/utils": "^3.0",
         "nette/robot-loader": "^3.2",
         "symfony/dependency-injection": "^4.4|^5.1",
         "symfony/console": "^4.4|^5.1",
         "symfony/http-kernel": "^4.4|^5.1",
-        "migrify/migrify-kernel": "^0.5",
-        "symplify/console-color-diff": "dev-master",
-        "symplify/package-builder": "dev-master",
-        "symplify/smart-file-system": "dev-master"
+        "symplify/symplify-kernel": "^9.0",
+        "symplify/console-color-diff": "^9.0",
+        "symplify/package-builder": "^9.0",
+        "symplify/smart-file-system": "^9.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5|^9.4"
     },
     "autoload": {
         "psr-4": {
-            "Migrify\\PHPUnitUpgrader\\": "src"
+            "Symplify\\PHPUnitUpgrader\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Migrify\\PHPUnitUpgrader\\Tests\\": "tests"
+            "Symplify\\PHPUnitUpgrader\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader;
+namespace Symplify\PHPUnitUpgrader;
 
-use Migrify\PHPUnitUpgrader\ValueObject\FileLine;
 use Nette\Utils\Strings;
+use Symplify\PHPUnitUpgrader\ValueObject\FileLine;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class AssertContainsFileLineExtractor

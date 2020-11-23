@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\Tests\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator;
+namespace Symplify\PHPUnitUpgrader\Tests\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator;
 
 use Iterator;
-use Migrify\PHPUnitUpgrader\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator;
-use Migrify\PHPUnitUpgrader\HttpKernel\PHPUnitUpgraderKernel;
 use Symplify\EasyTesting\DataProvider\StaticFixtureFinder;
 use Symplify\EasyTesting\StaticFixtureSplitter;
 use Symplify\PackageBuilder\Testing\AbstractKernelTestCase;
+use Symplify\PHPUnitUpgrader\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator;
+use Symplify\PHPUnitUpgrader\HttpKernel\PHPUnitUpgraderKernel;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class SetUpTearDownVoidFileInfoDecoratorTest extends AbstractKernelTestCase

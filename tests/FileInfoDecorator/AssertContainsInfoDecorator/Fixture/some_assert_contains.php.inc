@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\Tests\FileInfoDecorator\AssertContainsInfoDecorator\Fixture;
+namespace Symplify\PHPUnitUpgrader\Tests\FileInfoDecorator\AssertContainsInfoDecorator\Fixture;
 
 final class SomeAssertContains
 {
@@ -19,7 +19,7 @@ final class SomeAssertContains
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\Tests\FileInfoDecorator\AssertContainsInfoDecorator\Fixture;
+namespace Symplify\PHPUnitUpgrader\Tests\FileInfoDecorator\AssertContainsInfoDecorator\Fixture;
 
 final class SomeAssertContains
 {

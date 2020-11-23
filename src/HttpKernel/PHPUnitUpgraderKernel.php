@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\HttpKernel;
+namespace Symplify\PHPUnitUpgrader\HttpKernel;
 
-use Migrify\MigrifyKernel\Bundle\MigrifyKernelBundle;
-use Migrify\MigrifyKernel\HttpKernel\AbstractMigrifyKernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 use Symplify\ConsoleColorDiff\ConsoleColorDiffBundle;
+use Symplify\SymplifyKernel\Bundle\SymplifyKernelBundle;
+use Symplify\SymplifyKernel\HttpKernel\AbstractSymplifyKernel;
 
-final class PHPUnitUpgraderKernel extends AbstractMigrifyKernel
+final class PHPUnitUpgraderKernel extends AbstractSymplifyKernel
 {
     public function registerContainerConfiguration(LoaderInterface $loader): void
     {
@@ -22,6 +22,6 @@ final class PHPUnitUpgraderKernel extends AbstractMigrifyKernel
      */
     public function registerBundles(): array
     {
-        return [new ConsoleColorDiffBundle(), new MigrifyKernelBundle()];
+        return [new ConsoleColorDiffBundle(), new SymplifyKernelBundle()];
     }
 }

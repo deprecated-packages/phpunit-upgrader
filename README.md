@@ -1,13 +1,13 @@
 # PHPUnit Upgrades
 
-[![Downloads total](https://img.shields.io/packagist/dt/migrify/phpunit-upgrader.svg?style=flat-square)](https://packagist.org/packages/migrify/phpunit-upgrader/stats)
+[![Downloads total](https://img.shields.io/packagist/dt/symplify/phpunit-upgrader.svg?style=flat-square)](https://packagist.org/packages/symplify/phpunit-upgrader/stats)
 
 Upgrade PHPUnit tests with smart helping hand.
 
 ## Install
 
 ```bash
-composer require migrify/phpunit-upgrader --dev
+composer require symplify/phpunit-upgrader --dev
 ```
 
 ## Usage
@@ -35,8 +35,8 @@ vendor/bin/phpunit-upgrader voids /tests
 
 ## Report Issues
 
-In case you are experiencing a bug or want to request a new feature head over to the [migrify monorepo issue tracker](https://github.com/migrify/migrify/issues)
+In case you are experiencing a bug or want to request a new feature head over to the [Symplify monorepo issue tracker](https://github.com/symplify/symplify/issues)
 
 ## Contribute
 
-The sources of this package are contained in the migrify monorepo. We welcome contributions for this package on [migrify/migrify](https://github.com/migrify/migrify).
+The sources of this package are contained in the Symplify monorepo. We welcome contributions for this package at [symplify/symplify](https://github.com/symplify/symplify).

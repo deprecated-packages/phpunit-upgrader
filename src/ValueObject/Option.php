@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\ValueObject;
+namespace Symplify\PHPUnitUpgrader\ValueObject;
 
 final class Option
 {

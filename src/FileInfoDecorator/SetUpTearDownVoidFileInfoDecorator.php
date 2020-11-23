@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Migrify\PHPUnitUpgrader\FileInfoDecorator;
+namespace Symplify\PHPUnitUpgrader\FileInfoDecorator;
 
 use Nette\Utils\Strings;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 /**
- * @see \Migrify\PHPUnitUpgrader\Tests\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator\SetUpTearDownVoidFileInfoDecoratorTest
+ * @see \Symplify\PHPUnitUpgrader\Tests\FileInfoDecorator\SetUpTearDownVoidFileInfoDecorator\SetUpTearDownVoidFileInfoDecoratorTest
  */
 final class SetUpTearDownVoidFileInfoDecorator
 {
